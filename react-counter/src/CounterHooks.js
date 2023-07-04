@@ -14,7 +14,7 @@ function ContadorHooks() {
   return (
     <section>
       <h2>React - Contador Hooks</h2>
-      <p>{contador}</p>
+      <p>Valor: {contador}</p>
       <div className='buttons'>
       <button onClick={incrementar}>Incrementar</button>
       <button onClick={decrementar}>Decrementar</button>
